@@ -1,8 +1,7 @@
 name: Release Draft
 
-workflow_dispatch:
-
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*'
