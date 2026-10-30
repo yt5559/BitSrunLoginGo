@@ -1,5 +1,7 @@
 name: Release Draft
 
+workflow_dispatch:
+
 on:
   push:
     tags:
