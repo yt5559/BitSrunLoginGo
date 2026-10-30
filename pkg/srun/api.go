@@ -122,7 +122,7 @@ type LoginRequest struct {
 
 func (a *Api) Login(req *LoginRequest) (map[string]interface{}, error) {
 	return a.request(
-		"cgi-bin/srun_portal",
+		"srun_portal_pc",
 		map[string]interface{}{
 			"action":       "login",
 			"username":     req.Username,
